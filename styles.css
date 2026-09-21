@@ -1,0 +1,232 @@
+/* css styles */
+
+:root {
+  --accent-1: #0e7490;   /* deep teal */
+  --accent-2: #4338ca;   /* indigo */
+  --accent-soft: #eef2ff;
+  --accent-gradient: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+}
+
+/* Thin gradient strip along the top of the navbar */
+#quarto-header {
+  border-top: 4px solid transparent;
+  border-image: var(--accent-gradient) 1;
+}
+
+/* Name heading with a colorful line underneath */
+#quarto-document-content h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  position: relative;
+}
+
+#quarto-document-content h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent-gradient);
+}
+
+/* Section headings with a small accent bar */
+#quarto-document-content h2 {
+  border-bottom: none;
+  border-left: 4px solid var(--accent-1);
+  padding-left: 0.6rem;
+  margin-top: 2.5rem;
+}
+
+/* Links */
+#quarto-document-content a {
+  color: var(--accent-1);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+#quarto-document-content a:hover {
+  color: var(--accent-2);
+  border-bottom-color: var(--accent-2);
+}
+
+/* Connect links as pill buttons */
+.connect ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.connect li a {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--accent-1) !important;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  font-size: 0.95rem;
+}
+
+.connect li a:hover {
+  background: var(--accent-gradient);
+  color: #fff !important;
+  border-color: transparent !important;
+}
+
+/* Research theme cards */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem 1.4rem 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.research-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--accent-gradient);
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.research-card .bi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent-1);
+  font-size: 1.35rem;
+}
+
+.research-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.9rem 0 0.5rem;
+}
+
+.research-card h3 ~ p {
+  margin-bottom: 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.research-card h3 ~ p + p {
+  margin-top: 0.7rem;
+}
+
+/* Collapsible publication list inside a research card */
+/* Quarto wraps the heading, text and toggle in a <section>; stretch it so
+   the toggle sits at the bottom and dividers line up across a row */
+.research-card > section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-card .pubs {
+  margin-top: auto !important;
+}
+
+.research-card h3 ~ p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.research-card .pubs-empty {
+  display: block;
+  margin-top: 0.8rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.research-card:has(details[open]) {
+  grid-column: 1 / -1;
+}
+
+.research-card .pubs {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.research-card .pubs summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-1);
+}
+
+.research-card .pubs summary:hover {
+  color: var(--accent-2);
+}
+
+.research-card .pubs ul {
+  margin: 0.9rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.research-card .pubs li {
+  margin-bottom: 0.7rem;
+  font-size: 0.93rem;
+  color: #1f2937;
+}
+
+.research-card .pubs li p {
+  margin-bottom: 0;
+}
+
+.research-card .venue {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* Note above the research cards */
+.scholar-note {
+  margin-top: -0.25rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+/* Gradient button used for calls to action */
+#quarto-document-content .cta-button {
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  border-radius: 999px;
+  background: var(--accent-gradient);
+  color: #fff;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+#quarto-document-content .cta-button:hover {
+  color: #fff;
+  opacity: 0.9;
+  border-bottom: none;
+}

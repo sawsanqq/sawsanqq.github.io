@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sawsan Alqahtani",
+    "section": "",
+    "text": "I am an AI researcher and Assistant Professor at Princess Nourah bint Abdulrahman University (PNU), with research interests spanning natural language processing, speech technologies, foundation models, trustworthy AI, and the adoption of AI in real-world domains.\nMy work bridges the development and evaluation of AI technologies with their practical application and organizational adoption. I am particularly interested in Arabic and multilingual AI, speech and language technologies, large language models, AI agents, responsible AI, and AI-enabled transformation.\nI hold a Ph.D. in Computer Science from The George Washington University and have worked across academia and industry, including research and applied AI roles at Amazon and SDAIA.\n\n\nI’m interested in connecting with students, researchers, and practitioners whose interests overlap with mine, particularly on research that combines strong technical foundations with meaningful real-world problems.\nIf you’re exploring a research idea or potential collaboration, feel free to reach out with a short introduction and the topic you’d like to explore.\nGet in touch\n\n\n\n\n\nGoogle Scholar\nLinkedIn\nEmail"
+  },
+  {
+    "objectID": "index.html#interested-in-collaborating",
+    "href": "index.html#interested-in-collaborating",
+    "title": "Sawsan Alqahtani",
+    "section": "",
+    "text": "I’m interested in connecting with students, researchers, and practitioners whose interests overlap with mine, particularly on research that combines strong technical foundations with meaningful real-world problems.\nIf you’re exploring a research idea or potential collaboration, feel free to reach out with a short introduction and the topic you’d like to explore.\nGet in touch"
+  },
+  {
+    "objectID": "index.html#connect",
+    "href": "index.html#connect",
+    "title": "Sawsan Alqahtani",
+    "section": "",
+    "text": "Google Scholar\nLinkedIn\nEmail"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on language technologies, intelligent systems, trustworthy AI, and the adoption of AI in real-world settings.\n\nFor a complete list of publications, see my Google Scholar.\n\n\n\n\n\nNatural Language Processing & Multilingual AI\nMy research focuses on Arabic and multilingual language technologies, with particular interest in morphology, tokenization, conversational AI, diacritic restoration, and language model evaluation.\n\n\nSelected Recent Publications\n\n\nMorphemes Without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLMs\nLREC 2026\nBeyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation\nNeurIPS 2025 Workshop\nInjecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems\nEMNLP 2022\nUsing Optimal Transport as an Alignment Objective for Fine-Tuning Multilingual Contextualized Embeddings\nEMNLP 2021\n\n\n\n\n\n\n\nSpeech & Spoken Language Technologies\nMy research focuses on technologies for understanding, generating, and evaluating spoken language, with particular interest in speech recognition, text-to-speech, speech data, and the interaction between speech and language processing.\n\n\nSelected Recent Publications\n\n\nData Augmentation for Speech-Based Diacritic Restoration\nANLP 2024\nAutomatic Restoration of Diacritics for Speech Datasets\nNAACL 2024\n\n\n\n\n\n\n\nFoundation Models & Intelligent Systems\nMy research explores the development, adaptation, and evaluation of foundation models and intelligent systems, including LLMs, generative AI, and AI agents.\n\n\nSelected Recent Publications\n\n\nStop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models\nEACL 2026\nA Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations\nEMNLP 2024\nMorphemes Without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLMs\nLREC 2026\n\n\n\n\n\n\n\nTrustworthy & Responsible AI\nMy research focuses on the reliability, safety, security, and responsible development of AI systems, with particular interest in red teaming, robustness, vulnerability assessment, and responsible AI evaluation.\n\n\nSelected Recent Publications\n\nComing soon.\n\n\n\n\n\n\nAI Transformation & Domain Applications\nAI readiness, enterprise architecture, digital transformation, and applications of AI in areas such as HR, education, healthcare, and industry.\n\n\nSelected Recent Publications\n\nComing soon."
+  }
+]

@@ -1,0 +1,23 @@
+# Sawsan Alqahtani
+
+I am an AI researcher and Assistant Professor at Princess Nourah bint Abdulrahman University (PNU), with research interests spanning natural language processing, speech technologies, foundation models, trustworthy AI, and the adoption of AI in real-world domains.
+
+My work bridges the development and evaluation of AI technologies with their practical application and organizational adoption. I am particularly interested in Arabic and multilingual AI, speech and language technologies, large language models, AI agents, responsible AI, and AI-enabled transformation.
+
+I hold a Ph.D. in Computer Science from The George Washington University and have worked across academia and industry, including research and applied AI roles at Amazon and SDAIA.
+
+## Interested in Collaborating?
+
+I'm interested in connecting with students, researchers, and practitioners whose interests overlap with mine, particularly on research that combines strong technical foundations with meaningful real-world problems.
+
+If you're exploring a research idea or potential collaboration, feel free to reach out with a short introduction and the topic you'd like to explore.
+
+[Get in touch](mailto:alqahtani.sawsan@gmail.com){.cta-button}
+
+## Connect
+
+::: {.connect}
+* [Google Scholar](https://scholar.google.com/citations?user=uHGhCAgAAAAJ&hl=en)
+* [LinkedIn](https://www.linkedin.com/in/sawsan-alqahtani-3b1955a4/)
+* [Email](mailto:alqahtani.sawsan@gmail.com)
+:::

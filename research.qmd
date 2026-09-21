@@ -1,0 +1,110 @@
+---
+title: "Research"
+toc: false
+---
+
+My research focuses on language technologies, intelligent systems, trustworthy AI, and the adoption of AI in real-world settings.
+
+::: {.scholar-note}
+For a complete list of publications, see my [Google Scholar](https://scholar.google.com/citations?user=uHGhCAgAAAAJ&hl=en).
+:::
+
+::: {.research-grid}
+
+::: {.research-card}
+<i class="bi bi-translate"></i>
+
+### Natural Language Processing & Multilingual AI
+
+My research focuses on Arabic and multilingual language technologies, with particular interest in morphology, tokenization, conversational AI, diacritic restoration, and language model evaluation.
+
+<details class="pubs">
+<summary>Selected Recent Publications</summary>
+
+- **Morphemes Without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLMs**  
+  [LREC 2026]{.venue}
+
+- **Beyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation**  
+  [NeurIPS 2025 Workshop]{.venue}
+
+- **Injecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems**  
+  [EMNLP 2022]{.venue}
+
+- **Using Optimal Transport as an Alignment Objective for Fine-Tuning Multilingual Contextualized Embeddings**  
+  [EMNLP 2021]{.venue}
+
+</details>
+:::
+
+::: {.research-card}
+<i class="bi bi-mic"></i>
+
+### Speech & Spoken Language Technologies
+
+My research focuses on technologies for understanding, generating, and evaluating spoken language, with particular interest in speech recognition, text-to-speech, speech data, and the interaction between speech and language processing.
+
+<details class="pubs">
+<summary>Selected Recent Publications</summary>
+
+- **Data Augmentation for Speech-Based Diacritic Restoration**  
+  [ANLP 2024]{.venue}
+
+- **Automatic Restoration of Diacritics for Speech Datasets**  
+  [NAACL 2024]{.venue}
+
+</details>
+:::
+
+::: {.research-card}
+<i class="bi bi-cpu"></i>
+
+### Foundation Models & Intelligent Systems
+
+My research explores the development, adaptation, and evaluation of foundation models and intelligent systems, including LLMs, generative AI, and AI agents.
+
+<details class="pubs">
+<summary>Selected Recent Publications</summary>
+
+- **Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models**  
+  [EACL 2026]{.venue}
+
+- **A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations**  
+  [EMNLP 2024]{.venue}
+
+- **Morphemes Without Borders: Evaluating Root-Pattern Morphology in Arabic Tokenizers and LLMs**  
+  [LREC 2026]{.venue}
+
+</details>
+:::
+
+::: {.research-card}
+<i class="bi bi-shield-check"></i>
+
+### Trustworthy & Responsible AI
+
+My research focuses on the reliability, safety, security, and responsible development of AI systems, with particular interest in red teaming, robustness, vulnerability assessment, and responsible AI evaluation.
+
+<details class="pubs">
+<summary>Selected Recent Publications</summary>
+
+[Coming soon.]{.pubs-empty}
+
+</details>
+:::
+
+::: {.research-card}
+<i class="bi bi-diagram-3"></i>
+
+### AI Transformation & Domain Applications
+
+AI readiness, enterprise architecture, digital transformation, and applications of AI in areas such as HR, education, healthcare, and industry.
+
+<details class="pubs">
+<summary>Selected Recent Publications</summary>
+
+[Coming soon.]{.pubs-empty}
+
+</details>
+:::
+
+:::
